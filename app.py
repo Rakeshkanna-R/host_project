@@ -4,7 +4,7 @@ import os
 import streamlit as st
 
 # Set up Google API credentials
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC96ELnaWIN_3kHSzykc--ZISfgm04lVxI"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyB97vycGzxXT-BCLaS-aUFAOtmIxIWCUxI"
 
 # Initialize the user database in session state if it doesn't exist
 if "user_db" not in st.session_state:
